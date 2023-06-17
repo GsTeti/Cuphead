@@ -1,1 +1,1 @@
-# Cuphead
+*Readme na Wiki
