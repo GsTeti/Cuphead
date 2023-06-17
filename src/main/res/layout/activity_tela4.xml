@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela4">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/narrador"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="606dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/torresmo"
+        android:layout_width="192dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/todo7"
+        android:src="@drawable/porquin__1_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/porquin__1_"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="@string/seu_torresmo"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintTop_toBottomOf="@+id/torresmo"
+        tools:layout_editor_absoluteX="235dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="@string/velha_chaleira"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        tools:layout_editor_absoluteX="29dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="324dp"
+        android:fontFamily="monospace"
+        android:text="@string/calice_lend"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        tools:layout_editor_absoluteX="21dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="192dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo7"
+        android:src="@drawable/chaleira"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chaleira"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="188dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="396dp"
+        android:contentDescription="@string/todo7"
+        android:src="@drawable/legendary_chalice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/legendary_chalice"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="192dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/todo7"
+        android:src="@drawable/narrador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/narrador"/>
+
+    <Button
+        android:id="@+id/btnvltpers2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar4"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/btnirchef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proximo1"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/sec_tit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/personagens_secund"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar4"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar4"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar4"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar4"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
